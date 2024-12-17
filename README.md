@@ -7,3 +7,5 @@ Overview
 This repository contains an R script for forecasting short-term inflation expectations using a Random Forest model. The process involves time series transformation, lag creation, model training, evaluation, and visualization.
 
 The goal of this script is to predict monthly inflation rates using historical inflation data and lagged variables. It employs a machine learning-based Random Forest model to assess the importance of different lagged features (1, 3, and 6 months) in the prediction.
+
+ install.packages(c("readxl", "dplyr", "ggplot2", "lattice", "caret", "randomForest", "tseries", "vars"))
