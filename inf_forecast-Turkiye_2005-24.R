@@ -29,7 +29,7 @@ install.packages("vars")
 library(vars)
 
 ##### LOADING DATA ####
-enftahmintam <- read_excel("C:/Users/hdemi/OneDrive/Desktop/R_enf_Tahminlemesi/enftahmintam.xlsx")
+enftahmintam <- read_excel("enftahmintam.xlsx")
 View(enftahmintam)
 
 # Convert to time series format. Otherwise we cannot find the appropriate lag interval.
