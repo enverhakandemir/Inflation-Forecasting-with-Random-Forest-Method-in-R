@@ -139,7 +139,7 @@ drop(mae)
 # ADD: # APPENDIX: MAE is a metric that measures how much, on average, the predicted values deviate from the true values.
 ```
 
-7. Visualization
+### 7. Visualization
 Compare actual vs. predicted values using a line chart:
 ```R
 library(ggplot2) # Load ggplot2 package now, if you did not call it above.
