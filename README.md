@@ -10,6 +10,6 @@ The goal of this script is to predict monthly inflation rates using historical i
 
  install.packages(c("readxl", "dplyr", "ggplot2", "lattice", "caret", "randomForest", "tseries", "vars"))
 
-```
+```R
 install.packages(c("readxl", "dplyr", "ggplot2", "lattice", "caret", "randomForest", "tseries", "vars"))
 ```
