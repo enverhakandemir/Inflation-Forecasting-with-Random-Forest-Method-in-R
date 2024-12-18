@@ -175,3 +175,7 @@ print(varImp) #The most important lag is 3.
 plot(varImp, main = "Lag Variables Importance Graph - RandomForest Method")
 ```
 
+## Contact
+For questions or contributions, please open an issue or contact the repository owner.
+
+
