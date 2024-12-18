@@ -119,8 +119,3 @@ varImp <- varImp(model)
 print(varImp) #The most important lag is 3.
 plot(varImp, main = "Lag Variables Importance Graph - RandomForest Method")
 
-
-######SONUC DEDERLENDD0RME####
-#TCD0K verilerinegC6re AralD1k ayD1 %2,91 gelirse 2024 yD1llD1k enflasyonu %47,06 oluyor!
-#TCMB Enf. Raporu IV enf. beklentisinin orta noktasD1; %44 iken C<st sD1nD1r %46 olarak aC'D1klandD1 8 KasD1m 2024'te. 
-
