@@ -8,20 +8,33 @@ This repository contains an R script for forecasting short-term inflation expect
 
 The goal of this script is to predict monthly inflation rates using historical inflation data and lagged variables. It employs a machine learning-based Random Forest model to assess the importance of different lagged features (1, 3, and 6 months) in the prediction.
 
+İnstall and Load the required libraries:
 
 ```R
-install.packages(c("readxl", "dplyr", "ggplot2", "lattice", "caret", "randomForest", "tseries", "vars"))
-```
-
-Load the required libraries:
-
-```R
-library(readxl)    # For reading Excel files
-library(dplyr)     # For data manipulation
-library(ggplot2)   # For data visualization
-library(caret)     # For machine learning functions
-library(randomForest) # Random Forest algorithm
-library(tseries)   # For time series analysis
-library(vars)      # For determining lag order
+###### Load required libraries #######
+#to read excel (xlsx) files: 
+install.packages("readxl")
+library(readxl)
+#DPYLR: Grammar of DataManupilation
+install.packages("dplyr")
+library(dplyr)
+#Required library for ggplot function: ggplot2
+install.packages("ggplot2")
+library(ggplot2)
+#required library for lattice(TR:kafes) graph drawing: lattice
+install.packages("lattice")
+library(lattice)
+#The required library to use the "createDataPartition" function: caret
+install.packages("caret")
+library(caret)
+#Since we will build Prediction model with randomforest, we need it:
+install.packages("randomForest")
+library(randomForest)
+#Since we will be dealing with a time series data:
+install.packages("tseries")
+library(tseries)
+#To determine the appropriate number of lags: vars library
+install.packages("vars")
+library(vars)
 ```
 
